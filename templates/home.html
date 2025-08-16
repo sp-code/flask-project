@@ -67,8 +67,10 @@
     </style>
   </head>
   <body>
+    
     <div id="container">
     <h1>SP Careers</h1>
+      {% include 'navbar.html'%}
     <img id="banner" src="static/Careers.jpg">
     <h2>About SP </h2>
     <p class="body-text">At SP Careers, we’re dedicated to connecting talent with opportunity. Whether you're just starting your professional journey or looking to take the next big step in your career, we provide the tools, guidance, and resources you need to succeed. Our platform is designed to support job seekers and employers alike, offering a seamless experience from application to onboarding.</p>
@@ -81,10 +83,9 @@
           </div>
       </p>
       </div>
-    <div style="text-align:center">
-      <button id="contact">Contact Us</button>
-      <p>copyright 2025, SP Careers</p>
-    </div>
+    
+      {% include 'footer.html' %}
+    
   </body>
   
 </html>
